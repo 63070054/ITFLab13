@@ -21,6 +21,8 @@ if (mysqli_query($conn, $sql)) {
   else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
   }
+
   
 mysqli_close($conn);
 ?>
+<a href="show.php" class="btn btn-primary">BACK</a>
