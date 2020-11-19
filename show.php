@@ -27,12 +27,12 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
       </tr>
     </thead>
   </table>
-  <center>
-    <a href="form.html">
-      <button type="submit" class="btn btn-primary" align="center">Increase</button>
-    </a>
-  </center>
 </div>
+<center>
+  <a href="form.html">
+    <button type="submit" class="btn btn-primary" align="center">Increase</button>
+  </a>
+</center>
 <?php
 while($Result = mysqli_fetch_array($res))
 {
