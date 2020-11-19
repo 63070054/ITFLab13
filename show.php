@@ -25,7 +25,6 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
       <th width="200"> <div align="center">Button </div></th>
     </tr>
   </thead>
-</table>
 <div align="center">
   <a href="form.html">
     <button type="submit" class="btn btn-primary" align="center">Add</button>
