@@ -24,10 +24,9 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
       <th width="150"> <div align="center">Link </div></th>
       <th width="200"> <div align="center">Button </div></th>
     </tr>
-    <button type="submit" class="btn btn-primary">
-      <a href="form.html">Submit</a>
-
-      </button>
+  <a href="insert.php">
+    <button type="submit" class="btn btn-primary">Add</button>
+  </a>
   </thead>
 <?php
 while($Result = mysqli_fetch_array($res))
