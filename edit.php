@@ -20,6 +20,7 @@
 </head>
 <body>
   <form action = "update.php" method = "post">
+    <input type="text" name="ID" value="<?php echo $data['ID']; ?>"> <br>
     Name:<br>
     <input type="text" name = "Name" value="<?php echo $data['Name']; ?>" placeholder="Enter Name"> <br>
     Comment:<br>
