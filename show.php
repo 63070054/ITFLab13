@@ -37,12 +37,12 @@ while($Result = mysqli_fetch_array($res))
 <?php
 }
 ?>
+</table>
   <center>
     <a href="form.html">
       <button type="submit" class="btn btn-primary" align="center">ADD</button>
     </a>
   </center>
-</table>
 <?php
 mysqli_close($conn);
 ?>
