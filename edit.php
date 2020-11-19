@@ -21,11 +21,11 @@
 <body>
   <form action = "insert.php" method = "post">
     Name:<br>
-    <input type="text" name = "Name" placeholder="Enter Name"> <br>
+    <input type="text" name = "Name" value="<?php echo $name['ID']; ?>" placeholder="Enter Name"> <br>
     Comment:<br>
-    <textarea rows="10" cols="20" name = "Comment" placeholder="Enter Comment"></textarea><br>  
+    <textarea rows="10" cols="20" name = "Comment" value="<?php echo $name['Comment']; ?>" placeholder="Enter Comment"></textarea><br>  
     Link:<br>
-    <input type="text" name = "Link" placeholder="Enter Link"> <br><br>
+    <input type="text" name = "Link" value="<?php echo $name['Link']; ?>" placeholder="Enter Link"> <br><br>
     <button type="submit" class="btn btn-primary">Submit</button>
   </form> 
 </body>
