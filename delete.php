@@ -8,3 +8,4 @@
         echo "FAILED TO DELETE";
     }
 ?>
+<a href="show.php" class="btn btn-primary">BACK</a>
