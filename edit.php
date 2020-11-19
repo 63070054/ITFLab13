@@ -19,8 +19,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <form action = "insert.php" method = "post">
-    <input type="text" name="ID" value="<?php echo $data['ID']; ?>">
+  <form action = "update.php" method = "post">
     Name:<br>
     <input type="text" name = "Name" value="<?php echo $data['Name']; ?>" placeholder="Enter Name"> <br>
     Comment:<br>
