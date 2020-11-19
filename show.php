@@ -25,7 +25,6 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
       <th width="200"> <div align="center">Button </div></th>
     </tr>
   </thead>
-</table>
 <?php
 while($Result = mysqli_fetch_array($res))
 {
@@ -35,14 +34,14 @@ while($Result = mysqli_fetch_array($res))
     <td><?php echo $Result['Comment'];?></td>
     <td><?php echo $Result['Link'];?></td>
   </tr>
+<?php
+}
+?>
   <center>
     <a href="form.html">
       <button type="submit" class="btn btn-primary" align="center">ADD</button>
     </a>
   </center>
-<?php
-}
-?>
 </table>
 <?php
 mysqli_close($conn);
