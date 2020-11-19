@@ -16,15 +16,18 @@ if (mysqli_connect_errno($conn))
 }
 $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 ?>
-<table width="600" class="table table-bordered table table-hover ">
-  <thead class="thead-dark">
-    <tr>
-      <th width="100"> <div align="center">Name</div></th>
-      <th width="350"> <div align="center">Comment </div></th>
-      <th width="150"> <div align="center">Link </div></th>
-      <th width="200"> <div align="center">Button </div></th>
-    </tr>
-  </thead>
+<div>
+  <table class="table table-bordered table table-hover">
+    <thead class="thead-dark">
+      <tr>
+        <th width="100"> <div align="center">Name</div></th>
+        <th width="350"> <div align="center">Comment </div></th>
+        <th width="150"> <div align="center">Link </div></th>
+        <th width="200"> <div align="center">Button </div></th>
+      </tr>
+    </thead>
+  </table>
+</div>
 <div align="center">
   <a href="form.html">
     <button type="submit" class="btn btn-primary" align="center">Add</button>
